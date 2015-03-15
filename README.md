@@ -17,6 +17,6 @@ EncoderHelper.getChallangeAndWriteImage(cs, "png", fos);
 fos.close();
 ```
 
-it generate picture like this:
-![sample](https://github.com/pusuo/patchca/doc/images/patcha_demo.png)
+it generate picture like this:    
+![sample](https://raw.githubusercontent.com/pusuo/patchca/master/doc/images/patcha_demo.png)
 
