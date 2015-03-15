@@ -18,14 +18,14 @@
  */
 package org.patchca.service;
 
-import java.awt.image.BufferedImage;
-
 import org.patchca.background.BackgroundFactory;
 import org.patchca.color.ColorFactory;
 import org.patchca.filter.FilterFactory;
 import org.patchca.font.FontFactory;
 import org.patchca.text.renderer.TextRenderer;
 import org.patchca.word.WordFactory;
+
+import java.awt.image.BufferedImage;
 
 public abstract class AbstractCaptchaService implements CaptchaService {
 

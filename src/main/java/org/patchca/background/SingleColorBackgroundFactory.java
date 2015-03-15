@@ -18,12 +18,11 @@
  */
 package org.patchca.background;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.image.BufferedImage;
-
 import org.patchca.color.ColorFactory;
 import org.patchca.color.SingleColorFactory;
+
+import java.awt.*;
+import java.awt.image.BufferedImage;
 
 
 public class SingleColorBackgroundFactory implements BackgroundFactory {

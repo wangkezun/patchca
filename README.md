@@ -1,4 +1,22 @@
-patchca
-=======
+#   Patchca: verification code library for Java
 
-Simple yet powerful CAPTCHA library written in Java.      原项目地址: http://code.google.com/p/patchca/
+
+### Overview
+
+Simple yet powerful verification code library written in Java with zero dependency.
+
+You can generate verification code picture like this:
+
+```java
+ConfigurableCaptchaService cs = new ConfigurableCaptchaService();
+cs.setColorFactory(new SingleColorFactory(new Color(25, 60, 170)));
+cs.setFilterFactory(new CurvesRippleFilterFactory(cs.getColorFactory()));
+
+FileOutputStream fos = new FileOutputStream("patcha_demo.png");
+EncoderHelper.getChallangeAndWriteImage(cs, "png", fos);
+fos.close();
+```
+
+it generate picture like this:
+![sample](https://github.com/pusuo/patchca/doc/images/patcha_demo.png)
+

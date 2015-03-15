@@ -18,16 +18,13 @@
  */
 package org.patchca.text.renderer;
 
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
+import org.patchca.color.ColorFactory;
+import org.patchca.font.FontFactory;
+
+import java.awt.*;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
-
-import org.patchca.color.ColorFactory;
-import org.patchca.font.FontFactory;
 
 public abstract class AbstractTextRenderer implements TextRenderer {
 

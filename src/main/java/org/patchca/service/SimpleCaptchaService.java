@@ -18,14 +18,14 @@
  */
 package org.patchca.service;
 
-import java.awt.Color;
-
 import org.patchca.background.SingleColorBackgroundFactory;
 import org.patchca.color.SingleColorFactory;
 import org.patchca.filter.FilterFactory;
 import org.patchca.font.RandomFontFactory;
 import org.patchca.text.renderer.BestFitTextRenderer;
 import org.patchca.word.AdaptiveRandomWordFactory;
+
+import java.awt.*;
 
 public class SimpleCaptchaService extends AbstractCaptchaService {
 

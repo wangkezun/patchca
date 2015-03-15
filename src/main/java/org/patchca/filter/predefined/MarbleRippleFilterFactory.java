@@ -18,11 +18,11 @@
  */
 package org.patchca.filter.predefined;
 
+import org.patchca.filter.library.MarbleImageOp;
+
 import java.awt.image.BufferedImageOp;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.patchca.filter.library.MarbleImageOp;
 
 
 public class MarbleRippleFilterFactory extends RippleFilterFactory {

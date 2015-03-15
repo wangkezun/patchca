@@ -18,12 +18,12 @@
  */
 package org.patchca.filter.predefined;
 
+import org.patchca.filter.AbstractFilterFactory;
+import org.patchca.filter.library.DoubleRippleImageOp;
+
 import java.awt.image.BufferedImageOp;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.patchca.filter.AbstractFilterFactory;
-import org.patchca.filter.library.DoubleRippleImageOp;
 
 
 public class DoubleRippleFilterFactory extends AbstractFilterFactory {

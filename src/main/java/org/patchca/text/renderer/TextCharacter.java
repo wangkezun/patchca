@@ -18,8 +18,7 @@
  */
 package org.patchca.text.renderer;
 
-import java.awt.Color;
-import java.awt.Font;
+import java.awt.*;
 import java.awt.font.TextAttribute;
 import java.text.AttributedCharacterIterator;
 import java.text.AttributedString;

@@ -18,11 +18,11 @@
  */
 package org.patchca.filter.predefined;
 
+import org.patchca.filter.library.DiffuseImageOp;
+
 import java.awt.image.BufferedImageOp;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.patchca.filter.library.DiffuseImageOp;
 
 
 public class DiffuseRippleFilterFactory extends RippleFilterFactory {

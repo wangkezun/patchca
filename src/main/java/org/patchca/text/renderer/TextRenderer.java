@@ -18,10 +18,10 @@
  */
 package org.patchca.text.renderer;
 
-import java.awt.image.BufferedImage;
-
 import org.patchca.color.ColorFactory;
 import org.patchca.font.FontFactory;
+
+import java.awt.image.BufferedImage;
 
 public interface TextRenderer {
 

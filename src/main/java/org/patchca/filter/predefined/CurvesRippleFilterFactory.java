@@ -18,12 +18,12 @@
  */
 package org.patchca.filter.predefined;
 
+import org.patchca.color.ColorFactory;
+import org.patchca.filter.library.CurvesImageOp;
+
 import java.awt.image.BufferedImageOp;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.patchca.color.ColorFactory;
-import org.patchca.filter.library.CurvesImageOp;
 
 public class CurvesRippleFilterFactory extends RippleFilterFactory {
 

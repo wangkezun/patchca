@@ -18,9 +18,8 @@
  */
 package org.patchca.font;
 
-import java.awt.Font;
+import java.awt.*;
 
 public interface FontFactory {
-
 	Font getFont(int index);
 }

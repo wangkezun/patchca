@@ -12,7 +12,7 @@
     <artifactId>patchca</artifactId>
     <version>0.5.0</version>
 	<description>
-		generate CAPTCHA lib
+        Patchca: verification code library for Java
 	</description>
 
 	<scm>

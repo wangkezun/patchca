@@ -18,7 +18,7 @@
  */
 package org.patchca.color;
 
-import java.awt.Color;
+import java.awt.*;
 
 public class GradientColorFactory implements ColorFactory {
 

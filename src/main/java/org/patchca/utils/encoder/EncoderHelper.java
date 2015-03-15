@@ -18,13 +18,12 @@
  */
 package org.patchca.utils.encoder;
 
-import java.io.IOException;
-import java.io.OutputStream;
-
-import javax.imageio.ImageIO;
-
 import org.patchca.service.Captcha;
 import org.patchca.service.CaptchaService;
+
+import javax.imageio.ImageIO;
+import java.io.IOException;
+import java.io.OutputStream;
 
 public class EncoderHelper {
 
